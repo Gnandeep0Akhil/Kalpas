@@ -1,0 +1,552 @@
+body {
+    background-color: rgba(233, 233, 233, 0.5);
+}
+
+.SideNavigation{
+    position: absolute;
+    left: 0.5vw;
+    top: 1vh;
+    width: 25vw;
+    height: 98vh;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    background-color: rgba(233, 233, 233, 0.5);
+}
+.Cards{
+    position: absolute;
+    left: 25.5vw;
+    padding: 40px 0px 40px 20px;
+    top: 0.5vh;
+    width: 73vw;
+    height: 88vh;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.HCards{
+    position: absolute;
+    left: 25.5vw;
+    top: 0.5vh;
+    width: 73vw;
+    height: 98vh;
+    overflow-y: scroll;
+}
+
+.User{
+    position: absolute;
+    left: 1.5vw;
+    top: 6vh;
+    width: 22vw;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+}
+
+.Toggle{
+    position: absolute;
+    left: 1.5vw;
+    top: 18vh;
+    width: 22vw;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+}
+
+.Feedback{
+    position: absolute;
+    left: 1.5vw;
+    top: 40vh;
+    width: 22vw;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+}
+
+.Userimage{
+    background-color: tomato;
+    position: absolute;
+    left: 1.5vw;
+    top: 1.4vh;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.Greetuser{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 6vw;
+    top: 1vh;
+    width: 12vw;
+    height: 3vh;
+    border-radius: 25px;
+}
+
+.Tittle{
+    position: absolute;
+    font-size: 20px;
+    left: 6vw;
+    top: 4.5vh;
+    width: 12vw;
+    height: 4vh;
+    border-radius: 25px;
+}
+
+.THeading{
+    position: absolute;
+    left: 1.5vw;
+    top: 2vh;
+    width: 19vw;
+    height: 6vh;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Switch{
+    border-style: solid;
+    border-color: rgb(222, 222, 222);
+    position: absolute;
+    left: 1.5vw;
+    top: 9vh;
+    width: 19vw;
+    height: 8.5vh;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(222, 222, 222);
+}
+
+.Part1{
+    position: absolute;
+    width: 9.5vw;
+    height: 8.5vh;
+    border-radius: 5px;
+}
+
+.Part2{
+    position: absolute;
+    left: 9.5vw;
+    width: 9.5vw;
+    height: 8.5vh;
+    border-radius: 5px;
+}
+
+.Part1V{
+    background-color: rgb(90, 255, 145);
+    position: absolute;
+    width: 9.5vw;
+    height: 8.5vh;
+    border-radius: 5px;
+}
+
+.Part2H{
+    background-color: rgb(90, 255, 145);
+    position: absolute;
+    left: 9.5vw;
+    width: 9.5vw;
+    height: 8.5vh;
+    border-radius: 5px;
+}
+
+.cIcon{
+    position: relative;
+    top: 10%;
+    left: 30%;
+    font-size: 55px;
+}
+
+.lIcon {
+    position: relative;
+    top: 10%;
+    left: 30%;
+    font-size: 53px;
+}
+
+.FHeading{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    left: 1.5vw;
+    top: 2vh;
+    width: 19vw;
+    height: 6vh;
+    border-radius: 25px;
+}
+
+.FButton{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 20px;
+    left: 2vw;
+    top: 9.5vh;
+    width: 17.75vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(90, 255, 145);
+    cursor: pointer;
+}
+
+.HCard{
+    width: 60vw;
+    height: 15vh;
+    margin: 40px 50px 40px 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+
+.VCard{
+    width: 20vw;
+    height: 40vh;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+
+.Id{
+    background-color: tomato;
+    position: relative;
+    left: 1.5vw;
+    top: 3vh;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Head{
+    position: relative;
+    left: 7vw;
+    top: -6vh;
+    width: 50vw;
+    height: 3vh;
+    border-radius: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1vw;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Body{
+    position: relative;
+    left: 7vw;
+    top: -5.5vh;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.VHead {
+    position: relative;
+    margin-top: 0.5vh;
+    width: 18vw;
+    height: 8vh;
+    border-radius: 25px;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1vw;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.VBody {
+    position: relative;
+    margin-top: 0.5vh;
+    width: 18vw;
+    height: 8vh;
+    border-radius: 25px;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1vw;
+    font-size: 22px;
+}
+
+.VId {
+    background-color: tomato;
+    position: relative;
+    margin-left: 8px;
+    margin-top: 2vh;
+    width: 19vw;
+    height: 18vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    backdrop-filter: blur(10px);
+}
+
+.popup-inner {
+    position: relative;
+    padding: 50px;
+    top: 1vh;
+    left: 0.5vw;
+    width: 70vw;
+    height: 85vh;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    background-color: rgb(233, 233, 233);
+    border-style: solid;
+    border-color: gray;
+}
+
+.popup-inner button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border-radius: 100%;
+    cursor: pointer;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    width: 50px;
+    height: 50px;
+    color: tomato;
+    font: inherit;
+    outline: inherit;
+}
+
+.Feedback2{
+    position: absolute;
+    left: 1.5vw;
+    top: 18vh;
+    width: 22vw;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+}
+
+.FHeading2{
+    position: absolute;
+    left: 1.5vw;
+    top: 2vh;
+    width: 19vw;
+    height: 6vh;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.FButton2{
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.75);
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 20px;
+    left: 2vw;
+    top: 9.5vh;
+    width: 17.75vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.Fform{
+    width: 40vw;
+    position: relative;
+    left: 25vw;
+}
+
+input[type=text],
+input[type=number],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 16px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    color: tomato;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(90, 255, 145);
+    color: rgb(100, 100, 100);
+}
+
+textarea[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+}
+
+.popup2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+}
+
+.popup-inner2 {
+    position: relative;
+    padding: 10vh;
+    top: 14vh;
+    width: 100%;
+    height: 50vh;
+    max-width: 640px;
+    background-color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.popup-inner2 button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    width: 50px;
+    height: 50px;
+    color: tomato;
+    font: inherit;
+    outline: inherit;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.VCard button{
+    position: relative;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    left: 18vw;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    color: tomato;
+}
+
+.HCard button {
+    position: relative;
+    top: -12vh;
+    left: 63vw;
+    font-size: x-large;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    width: 50px;
+    height: 50px;
+    color: tomato;
+    outline: inherit;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.IdR {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: tomato;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.HeadR{
+    width: 95%;
+    height: 8vh;
+    margin-top: 1vh;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    padding-left: 1vw;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.BodyR{
+    margin-top: 1vh;
+    width: 95%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.5);
+    padding-left: 1vw;
+    font-size: 22px;
+}
